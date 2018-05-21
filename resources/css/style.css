@@ -1,6 +1,6 @@
 /* Universal Styles */
 html {
-  background-color: #000;
+  background-color: black;
 }
 
 body {
@@ -39,7 +39,10 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
-  height: 60px;
-  margin-left: 10px;
+  padding-left: 10px;
+  }
+
+  .logo img {
+    height: 50px;
+    margin-right: 12px;
   }
